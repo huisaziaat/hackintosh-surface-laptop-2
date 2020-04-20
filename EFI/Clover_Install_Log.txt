@@ -1,0 +1,43 @@
+
+Clover EFI installer log - Mon Apr 20 23:08:20 WIB 2020
+Installer version: r5113 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         128.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         127.8 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +127.8 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume macOS                   18.2 GB    disk1s1
+   2:                APFS Volume Preboot                 48.5 MB    disk1s2
+   3:                APFS Volume Recovery                522.9 MB   disk1s3
+   4:                APFS Volume VM                      2.1 GB     disk1s4
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk2
+   1:                  Apple_HFS macOS Base System       24.2 GB    disk2s1
+   2:       Microsoft Basic Data NO NAME                 16.8 GB    disk2s2
+   3:                        EFI EFI                     209.7 MB   disk2s3
+
+Target volume /Volumes/macOS on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r4928/2020-04-20-23h08/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing UEFI/SMCHelper.efi driver because VirtualSMC driver present
+
+Using default theme 'XBlue'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
