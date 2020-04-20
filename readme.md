@@ -23,7 +23,7 @@ This is not a full installation guide of how to install macOS on your surface de
 
 ### Not working
 - Wifi / Bluetooth (Use a dongle for that)
-- Keyboard, this is due Microsoft using a non standard config for driver (Surface Aggretator Module) which hasn't been ported over to macOS, it has been ported over for linux.
+- Keyboard, this is due Microsoft using a non standard config for driver (Surface Aggregator Module) which hasn't been ported over to macOS, it has been ported over for linux.
 - Touch-screen
 
 ### Specs
